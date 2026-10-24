@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iintoo Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="all">
+        <section class="left">
+            <img src="img/bg.jpg" alt="backgorund" class="background-image">
+            <img src="img/logo.svg" alt="logo" class="logo">
+        </section>
+
+        <section class="right">
+            <h1>Get iintoo it today</h1>
+            <p class="subtitle">
+                There is no charge or obligation upon registration.
+            </p>
+
+            <div class="social-buttons">
+                <a href="https://www.facebook.com/"
+                class="social-button facebook"
+                target="_blank">
+                <img src="img/facebook.svg" alt="#">
+                <span>Registration with Facebook</span>
+                </a>
+
+                <a href="https://www.linkedin.com/login/"
+                    class="social-button linkedin"
+                    target="_blank">
+                    <img src="img/linkedin.svg" alt="#">
+                    <span>Registration whith Linkedin</span>
+                </a>
+            </div>
+
+            <div class="OR">
+                <span>OR</span>
+            </div>
+            <form>
+                <div class="input">
+                    <label for="email">
+                        <span>Email</span>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="gus.goodwin@gmail.com"
+                               required>
+                    </label>
+                    <label for="phone">
+                        <span>Phone</span>
+                        <input type="tel"
+                               id="phone"
+                               name="phone">  
+                    </label>
+                </div>
+                <h2>What type of investor are you?</h2>
+                <p class="title">
+                 Select the type of investor you are below.
+                </p>
+                <div class="investor">
+                    <label>
+                        <input type="radio"
+                               name="investor"
+                               value="Individual" checked>
+                               Individual
+                    </label>
+                    <label>
+                        <input type="radio"
+                                name="investor"
+                                value="Business">
+                                Business
+                    </label>
+                    <label>
+                        <input type="radio"
+                                name="investor"
+                                value="IRA">
+                                IRA
+                    </label>
+                    <label>
+                        <input type="radio"
+                               name="investor"
+                               value="Trust">
+                               Trust
+                    </label>
+                </div>
+
+                <div class="investor-info">
+                 I am a natural person investing on my own behalf
+                 as a sole owner, joint tenant, or tenant in common.
+                </div>
+
+                <label class="terms">
+                    <input type="checkbox"
+                           name="agreement"
+                           required>
+                     <span>I agree to the terms and receiving notifications from iintoo <a href="#">View full terms</a></span>  
+                </label>  
+                <button type="submit" class="create-account">Create account</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
