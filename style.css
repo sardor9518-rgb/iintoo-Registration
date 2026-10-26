@@ -168,3 +168,6 @@ h2 {
      cursor: pointer;
      font-size: 14px;
 }
+input {
+     font-family: inherit;
+}
