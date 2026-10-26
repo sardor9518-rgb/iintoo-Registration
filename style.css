@@ -1,181 +1,170 @@
 @font-face {
-    font-family: "barlow";
-    src: url("./barlow/Barlow-Regular.ttf");
+     font-family: "barlow";
+     src: url(./barlow/Barlow-Regular.ttf);
 }
-
 body {
      background: #EFF6FF;
-     font-family: "barlow";
+     font-family: "barlow", sans-serif;
 }
 .all {
-    display: flex;
-    width: 100%;
-    max-width: 1268px;
-    min-height: 880px;
-    margin: 0 auto;
-    background: #FFFFFF;
+     display: flex;
+     width: 100%;
+     max-width: 1268px;
+     min-height: 880px;
+     margin: 0 auto;
+     background: #FFFFFF;
 }
 .left {
-    position: relative;
-    width: 53%;
-    min-height: 880px;
+     position: relative;
+     width: 53%;
+     min-height: 880px;
 }
 .background-image {
-    width: 100%;
-    height: 100%;
+     width: 100%;
+     height: 100%;
 }
 .logo {
-    position: absolute;
-    top: 38px;
-    left: 42px;
-    width: 125px;
+     position: absolute;
+     top: 38px;
+     left: 42px;
+     width: 125px;
 }
 .right {
-    width: 47%;
-    padding: 100px 5%;
+     width: 47%;
+     padding: 100px 5%;
 }
 h1 {
-    font-size: 25px;
-    font-family: "barlow";
-    color: #7B8A92;
+     font-size: 25px;
+     color: #7B8A92;
 }
 .subtitle {
-    color: #96A5B1;
-    font-size: 16px;
-    margin: 0 0 48px;
-    font-family: "barlow"
+     color: #96A5B1;
+     font-size: 16px;
+     margin: 0 0 48px;
 }
 .social-buttons {
-    display: flex;
-    gap: 30px;
-    width: 100%;
+     display: flex;
+     gap: 30px;
+     width: 100%;
 }
 .social-button {
-    flex: 1;
-    display: flex;
-    gap: 12px;
-    padding: 12px 10px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size: 12px;
-    font-family: "barlow";
-    text-decoration: none;
+     flex: 1;
+     display: flex;
+     gap: 12px;
+     padding: 12px 10px;
+     color: #FFFFFF;
+     cursor: pointer;
+     font-size: 12px;
+     text-decoration: none;
 }
 .social-button img {
-    width: 16px;
-    height: 16px;
+     width: 16px;
+     height: 16px;
 }
 .facebook {
-    background: #255A9B;
+     background: #255A9B;
 }
 
 .linkedin {
-    background: #0076B6;
+     background: #0076B6;
 }
 .OR {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 44px auto 40px;
-    width: 60%;
-    color: #96A5B1;
-    font-size: 12px;
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     margin: 44px auto 40px;
+     width: 60%;
+     color: #96A5B1;
+     font-size: 12px;
 }
 .OR::before,
 .OR::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #AFAFAF
+     content: "";
+     flex: 1;
+     height: 1px;
+     background: #AFAFAF
 }
 .input {
-    display: flex;
-    gap: 30px;
-    width: 100%;
+     display: flex;
+     gap: 30px;
+     width: 100%;
 }
 .input label {
-    display: flex;
-    flex: 1;
-    min-height: 50px;
-    padding: 5px 9px;
-    border: 1px solid #AFAFAF;
-    font-size: 12px;
-    color: #AFAFAF;
-    cursor: pointer;
+     display: flex;
+     flex: 1;
+     min-height: 50px;
+     padding: 5px 9px;
+     border: 1px solid #AFAFAF;
+     font-size: 12px;
+     color: #AFAFAF;
+     cursor: pointer;
 }
 .input label:focus-within {
-    border-left: 2px solid #3698FB;
-    padding-left: 8px;
+     border-left: 2px solid #3698FB;
+     padding-left: 8px;
 }
  .input input {
-    display: block;
-    width: 100%;
-    margin-top: 5px;
-    border: none;
-    outline: none;
-    font-family: "barlow";
-    font-size: 13px;
+     display: block;
+     width: 100%;
+     margin-top: 5px;
+     border: none;
+     outline: none;
+     font-size: 13px;
 }
 h2 {
-    font-size: 19px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    color: #7B8A92;
-    font-family: "barlow";
+     font-size: 19px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+     color: #7B8A92;
 }
 .title {
-    font-size: 12px;
-    color: #AFAFAF;
-    margin: 0 0 40px;
-    font-family: "barlow";
+     font-size: 12px;
+     color: #AFAFAF;
+     margin: 0 0 40px;
 }
 .investor {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 22px;
-    font-size: 13px;
-    font-family: "barlow";
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 22px;
+     font-size: 13px;
 }
 .investor label {
-    cursor: pointer;
+     cursor: pointer;
 }
 .info {
     color: #AFAFAF;
     font-size: 11px;
 }
 .investor-info {
-    width: 230px;
-    padding: 12px 14px;
-    margin-bottom: 38px;
-    background: #ffff;
-    box-shadow:  0 5px 20px;
-    color: #AFAFAF;
-    font-size: 11px;
-    font-family: "barlow";
+     width: 230px;
+     padding: 12px 14px;
+     margin-bottom: 38px;
+     background: #ffff;
+     box-shadow:  0 5px 20px;
+     color: #AFAFAF; 
+     font-size: 11px;
 }
 .terms {
-    display: flex;
-    gap: 7px;
-    margin: 0 0 52px;
-    color: #AFAFAF;
-    font-size: 11px;
-    font-family: sa
+     display: flex;
+     gap: 7px;
+     margin: 0 0 52px;
+     color: #AFAFAF;
+     font-size: 11px;
 }
 .terms input {
-    margin: 3px 0 0;
-    accent-color: #3698FB;
-}
+     margin: 3px 0 0;
+     accent-color: #3698FB;
+} 
 .terms a {
-    color: #3698FB;
-    text-decoration: underline;
+     color: #3698FB;
+     text-decoration: underline;
 }
 .create-account {
-    width: 45%;
-    padding: 12px 20px;
-    background: #3698FB;
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: "barlow";
+     width: 45%;
+     padding: 12px 20px;
+     background: #3698FB;
+     color: #FFFFFF;
+     border: none;
+     cursor: pointer;
+     font-size: 14px;
 }
