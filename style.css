@@ -1,10 +1,12 @@
+* {
+     font-family: "barlow", sans-serif;
+}
 @font-face {
      font-family: "barlow";
      src: url(./barlow/Barlow-Regular.ttf);
 }
 body {
      background: #EFF6FF;
-     font-family: "barlow", sans-serif;
 }
 .all {
      display: flex;
@@ -167,7 +169,4 @@ h2 {
      border: none;
      cursor: pointer;
      font-size: 14px;
-}
-input {
-     font-family: inherit;
 }
